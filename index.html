@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <title>MYSTERY XMAS</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="game">
+    <!-- BOARD INFO PANEL -->
+    <div id="board-info">
+        Field 3-star Trieu and Jana on your board to unlock the mystery gift
+    </div>
+
+    <!-- BOARD -->
+    <div id="board">
+        <div class="board-slot" data-slot="0"></div>
+        <div class="board-slot" data-slot="1"></div>
+    </div>
+
+    <!-- BENCH -->
+    <div id="bench"></div>
+
+    <!-- SHOP -->
+    <div id="shop-area">
+        <button id="reroll">REROLL</button>
+        <div id="shop"></div>
+    </div>
+
+</div>
+
+<!-- POPUP WIN -->
+<div id="win-popup" class="hidden">
+    <div class="popup">
+        <h2>🎁 You have unlocked a mystery gift 🎁</h2>
+        <img src="assets/mysbloom.jpg" />
+        <button id="claim">Claim now</button>
+    </div>
+</div>
+
+<script src="data.js"></script>
+<script src="bench.js"></script>
+<script src="shop.js"></script>
+<script src="game.js"></script>
+
+</body>
+</html>
