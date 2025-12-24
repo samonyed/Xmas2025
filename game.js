@@ -83,6 +83,7 @@ function checkWin() {
 }
 
 document.getElementById("claim").onclick = () => {
-  window.location.href = "https://discord.gg/KBv2Q4XP";
+  window.location.href = "https://discord.gg/S5vM2DAE";
 };
+
 
