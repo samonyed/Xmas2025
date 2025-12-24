@@ -83,5 +83,6 @@ function checkWin() {
 }
 
 document.getElementById("claim").onclick = () => {
-  window.location.href = "https://www.facebook.com/messages/e2ee/t/9693215280758873/";
+  window.location.href = "https://discord.gg/KBv2Q4XP";
 };
+
